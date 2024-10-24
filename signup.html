@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="icon" href="img/logo-icon.svg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="border-bottom: 2px solid #ffffff; padding: 10px 80px;">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/logo.svg" alt="logo" class="me-2" style="height: 54px; width: 54px;">
+                <div>
+                    <h1 class="h5 mb-0" style="color: #0ac5cf;">AHMAD FARKHAN HAQIQI</h1>
+                    <p class="mb-0" style="font-size: 14px;">102230025 - IM23C</p>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn px-4" style="background-color: transparent; color: #333333;" href="signup.html">Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn px-4" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+
+    <section class="signup py-5">
+        <div class="title">
+            <h2>Sign up</h2>
+            <div></div>
+        </div>
+        <div class="signup-content">
+            <form class="w-100">
+                <div class="p-4 pt-2">
+                    <h5 class="border-bottom pb-3 mb-3">Informasi Pribadi</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="namaDepan" class="form-label">Nama Depan</label>
+                                <input type="text" class="form-control" id="namaDepan" placeholder="Masukkan nama depan">
+                            </div>
+                            <div class="mb-3">
+                                <label for="alamat" class="form-label">Alamat</label>
+                                <input type="text" class="form-control" id="alamat" placeholder="Masukkan alamat">
+                            </div>
+                            <div class="mb-3">
+                                <label for="noHp" class="form-label">No HP</label>
+                                <input type="text" class="form-control" id="noHp" placeholder="Masukkan no HP">
+                            </div>
+                            <div class="mb-3">
+                                <label for="pekerjaan" class="form-label">Pekerjaan</label>
+                                <select class="form-select" id="pekerjaan">
+                                    <option>---Silahkan Pilih---</option>
+                                    <option>Swasta</option>
+                                    <option>PNS</option>
+                                    <option>TNI</option>
+                                    <option>Polri</option>
+                                    <option>Dokter</option>
+                                    <option>Programmer</option>
+                                    <option>DPR</option>
+                                    <option>Guru</option>
+                                    <option>Dosen</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="nik" class="form-label">NIK / No KTP</label>
+                                <input type="text" class="form-control" id="nik" placeholder="Masukkan NIK / No KTP">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="namaBelakang" class="form-label">Nama Belakang</label>
+                                <input type="text" class="form-control" id="namaBelakang" placeholder="Masukkan nama belakang">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Masukkan email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="agama" class="form-label">Agama</label>
+                                <select class="form-select" id="agama">
+                                    <option>---Silahkan Pilih---</option>
+                                    <option>Islam</option>
+                                    <option>Hindu</option>
+                                    <option>Budha</option>
+                                    <option>Lainnya</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="jenisKelamin" class="form-label">Jenis Kelamin</label>
+                                <select class="form-select" id="jenisKelamin">
+                                    <option>---Silahkan Pilih---</option>
+                                    <option>Laki-laki</option>
+                                    <option>Perempuan</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="py-4">
+                    <h5 class="border-bottom pb-3 mb-3">Media Sosial</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="urlWebsite" class="form-label">URL Website</label>
+                                <input type="text" class="form-control" id="urlWebsite" placeholder="Masukkan URL Website">
+                            </div>
+                            <div class="mb-3">
+                                <label for="urlTiktok" class="form-label">URL Tiktok</label>
+                                <input type="text" class="form-control" id="urlTiktok" placeholder="Masukkan URL TikTok">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="facebook" class="form-label">URL Facebook</label>
+                                <input type="text" class="form-control" id="facebook" placeholder="Masukkan URL Facebook">
+                            </div>
+                            <div class="mb-3">
+                                <label for="instagram" class="form-label">URL Instagram</label>
+                                <input type="text" class="form-control" id="instagram" placeholder="Masukkan URL Instagram">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="py-4">
+                    <h5 class="border-bottom pb-3 mb-3">Informasi Orang Tua</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="namaAyah" class="form-label">Nama Ayah</label>
+                                <input type="text" class="form-control" id="namaAyah" placeholder="Masukkan nama ayah">
+                            </div>
+                            <div class="mb-3">
+                                <label for="alamatAyah" class="form-label">Alamat Ayah</label>
+                                <input type="text" class="form-control" id="alamatAyah" placeholder="Masukkan alamat ayah">
+                            </div>
+                            <div class="mb-3">
+                                <label for="nikAyah" class="form-label">NIK Ayah</label>
+                                <input type="text" class="form-control" id="nikAyah" placeholder="Masukkan nik ayah">
+                            </div>
+                            <div class="mb-3">
+                                <label for="pekerjaanAyah" class="form-label">Pekerjaan Ayah</label>
+                                <select class="form-select" id="pekerjaanAyah">
+                                    <option>---Silahkan Pilih---</option>
+                                    <option>Swasta</option>
+                                    <option>PNS</option>
+                                    <option>TNI</option>
+                                    <option>Polri</option>
+                                    <option>Dokter</option>
+                                    <option>Programmer</option>
+                                    <option>DPR</option>
+                                    <option>Guru</option>
+                                    <option>Dosen</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="noHpAyah" class="form-label">No hp Ayah</label>
+                                <input type="text" class="form-control" id="noHpAyah" placeholder="Masukkan no hp ayah">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="namaIbu" class="form-label">Nama Ibu</label>
+                                <input type="text" class="form-control" id="namaIbu" placeholder="Masukkan nama ibu">
+                            </div>
+                            <div class="mb-3">
+                                <label for="alamatIbu" class="form-label">Alamat Ibu</label>
+                                <input type="text" class="form-control" id="alamatIbu" placeholder="Masukkan alamat ibu">
+                            </div>
+                            <div class="mb-3">
+                                <label for="nikIbu" class="form-label">NIK Ibu</label>
+                                <input type="text" class="form-control" id="nikIbu" placeholder="Masukkan nik ibu">
+                            </div>
+                            <div class="mb-3">
+                                <label for="pekerjaanIbu" class="form-label">Pekerjaan Ibu</label>
+                                <select class="form-select" id="pekerjaanIbu">
+                                    <option>---Silahkan Pilih---</option>
+                                    <option>Swasta</option>
+                                    <option>PNS</option>
+                                    <option>TNI</option>
+                                    <option>Polri</option>
+                                    <option>Dokter</option>
+                                    <option>Programmer</option>
+                                    <option>DPR</option>
+                                    <option>Guru</option>
+                                    <option>Dosen</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="noHpIbu" class="form-label">No HP Ibu</label>
+                                <input type="text" class="form-control" id="noHpIbu" placeholder="Masukkan no hp ibu">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="py-4">
+                    <h5 class="border-bottom pb-3 mb-3">Akun & Kata Sandi</h5>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Username</label>
+                                <input type="text" class="form-control" id="username" placeholder="Masukkan username">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Masukkan password">
+                            </div>
+                            <div class="mb-3">
+                                <label for="rePassword" class="form-label">Re-type Password</label>
+                                <input type="password" class="form-control" id="rePassword" placeholder="Ulangi password">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="submit-section py-4">
+                    <button class="btn" style="background-color: transparent; border: none; color: #303030;" formaction="index.html">Cancel</button>
+                    <button type="submit" class="btn btn-submit mx-3 px-5" formaction="login.html">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
